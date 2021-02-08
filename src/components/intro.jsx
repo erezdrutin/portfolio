@@ -2,6 +2,10 @@ import React from "react";
 import "./stars.scss";
 import Typed from "react-typed";
 
+import { FiMail } from "react-icons/fi";
+import { GoMarkGithub } from "react-icons/go";
+import { ImLinkedin, ImAppleinc } from "react-icons/im";
+
 class Intro extends React.Component {
   render() {
     return (
@@ -42,6 +46,59 @@ class Intro extends React.Component {
                   View My Work
                 </a>
               </p>
+              
+              <div className="socials">
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/erezdrutin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="ico-circle">
+                      <GoMarkGithub style={{width: '1.5rem', height: '1.5rem', color: 'white'}} />
+                    </span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://apps.apple.com/us/developer/erez-drutin/id912961642"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="ico-circle">
+                      <ImAppleinc style={{width: '1.5rem', height: '1.5rem', color: 'white'}} />
+                    </span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/erez-drutin-0099701aa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="ico-circle">
+                      <ImLinkedin style={{width: '1.5rem', height: '1.5rem', color: 'white'}} />
+                    </span>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="mailto:drutinerez3@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="ico-circle">
+                      <FiMail style={{width: '1.5rem', height: '1.5rem', color: 'white'}}/>
+                    </span>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
             </div>
           </div>
         </div>

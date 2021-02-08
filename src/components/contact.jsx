@@ -1,5 +1,8 @@
 import React from "react";
 import imageOverlay from "../img/earth.jpg";
+import { FiMail } from "react-icons/fi";
+import { GoMarkGithub } from "react-icons/go";
+import { ImLinkedin, ImAppleinc } from "react-icons/im";
 
 class Contact extends React.Component {
   render() {
@@ -21,11 +24,9 @@ class Contact extends React.Component {
                     </div>
                     <div className="more-info">
                       <p className="lead">
-                        Whether you want to get in touch, talk about a project
-                        collaboration, or just say hi, I'd love to hear from
-                        you.
-                        <br />
-                        Simply fill the from and send me an email.
+                        I would love to hear from you!
+                        <br/>
+                        Contact me via one of the following methods.
                       </p>
                       {/* <!-- <ul class="list-ico">
                               <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -37,37 +38,52 @@ class Contact extends React.Component {
                       <ul>
                         <li>
                           <a
-                            href=""
+                            href="https://github.com/erezdrutin"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <span className="ico-circle">
-                              <i className="ion-social-codepen"></i>
+                              <GoMarkGithub style={{width: '1.5rem', height: '1.5rem'}} />
                             </span>
                           </a>
                         </li>
+
                         <li>
                           <a
-                            href=""
+                            href="https://apps.apple.com/us/developer/erez-drutin/id912961642"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <span className="ico-circle">
-                              <i className="ion-social-github"></i>
+                              <ImAppleinc style={{width: '1.5rem', height: '1.5rem'}} />
                             </span>
                           </a>
                         </li>
+
                         <li>
                           <a
-                            href=""
+                            href="https://www.linkedin.com/in/erez-drutin-0099701aa"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <span className="ico-circle">
-                              <i className="ion-social-linkedin"></i>
+                              <ImLinkedin style={{width: '1.5rem', height: '1.5rem'}} />
                             </span>
                           </a>
                         </li>
+
+                        <li>
+                          <a
+                            href="mailto:drutinerez3@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <span className="ico-circle">
+                              <FiMail style={{width: '1.5rem', height: '1.5rem'}}/>
+                            </span>
+                          </a>
+                        </li>
+
                       </ul>
                     </div>
                   </div>

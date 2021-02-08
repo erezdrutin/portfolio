@@ -27,12 +27,12 @@ class About extends React.Component {
         {
           id: "second-p-about",
           content:
-            "A Practical Technician degree graduate that is currently learning towards a B.S.c in Computer Science in the Open University."
+            "A practical technician degree graduate that is currently learning towards a B.S.c in Computer Science in the Open University."
         },
         {
           id: "third-p-about",
           content:
-          "Specializes in coming up with creative solutions for the most bizarre problems. "
+          "Specializes in coming up with creative solutions for the most bizarre problems. Always up to learn something new and enrich my knowledge."
         }
       ]
     };
@@ -101,6 +101,24 @@ class About extends React.Component {
                       })}
                     </div>
                   </div>
+                </div>
+                
+                <div className="pt-3" style={{marginTop: '1rem', display: 'flex', alignContent: 'center', justifyContent: 'center', textAlign: 'center'}}>
+                  <a
+                  className="btn btn-primary btn js-scroll px-4"
+                  href="#work"
+                  role="button"
+                  >
+                      Download My Resume in Hebrew
+                  </a>
+                  <a
+                  className="btn btn-primary btn js-scroll px-4"
+                  href="#work"
+                  role="button"
+                  style={{marginLeft: '4rem'}}
+                  >
+                      Download My Resume in English
+                  </a>
                 </div>
               </div>
             </div>
