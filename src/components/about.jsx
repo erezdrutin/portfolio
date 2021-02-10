@@ -12,11 +12,11 @@ class About extends React.Component {
         { id: "SQL_skill", content: "SQL", porcentage: "90%", value: "90" },
         { id: "Wordpress_skill", content: "Wordpress", porcentage: "75%", value: "75" },
         { id: "Swift_SwiftUI_skill", content: "Swift & SwiftUI", porcentage: "70%", value: "70" },
-        { id: "Firebase_skill", content: "Firebase", porcentage: "80%", value: "80" },
+        { id: "MongoDB_Firebase_skill", content: "Firebase & MongoDB", porcentage: "80%", value: "80" },
         { id: "C#_Java_skill", content: "C# & Java", porcentage: "80%", value: "80" },
         { id: "Automic_skill", content: "Automic Automations", porcentage: "90%", value: "90" },
         { id: "Batch_Powershell_skill", content: "Batch & Powershell", porcentage: "80%", value: "80" },
-        { id: "Linux_skill", content: "Linux", porcentage: "75%", value: "75" },
+        { id: "Linux_skill", content: "Linux", porcentage: "80%", value: "80" },
       ],
       about_me: [
         {
@@ -101,24 +101,6 @@ class About extends React.Component {
                       })}
                     </div>
                   </div>
-                </div>
-                
-                <div className="pt-3" style={{marginTop: '1rem', display: 'flex', alignContent: 'center', justifyContent: 'center', textAlign: 'center'}}>
-                  <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
-                  role="button"
-                  >
-                      Download My Resume in Hebrew
-                  </a>
-                  <a
-                  className="btn btn-primary btn js-scroll px-4"
-                  href="#work"
-                  role="button"
-                  style={{marginLeft: '4rem'}}
-                  >
-                      Download My Resume in English
-                  </a>
                 </div>
               </div>
             </div>

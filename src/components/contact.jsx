@@ -1,5 +1,5 @@
 import React from "react";
-import imageOverlay from "../img/earth.jpg";
+import imageOverlay from "../img/test_background.jpg";
 import { FiMail } from "react-icons/fi";
 import { GoMarkGithub } from "react-icons/go";
 import { ImLinkedin, ImAppleinc } from "react-icons/im";
@@ -26,7 +26,9 @@ class Contact extends React.Component {
                       <p className="lead">
                         I would love to hear from you!
                         <br/>
-                        Contact me via one of the following methods.
+                        Send me an email at drutinerez3@gmail.com
+                        <br/>
+                        Or contact me via one of the following methods &#128512;
                       </p>
                       {/* <!-- <ul class="list-ico">
                               <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>

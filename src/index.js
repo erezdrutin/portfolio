@@ -37,7 +37,6 @@ ReactDOM.render(
         <Intro />
         <About />
         <Portfolio />
-        <Resume />
         <Contact />
         <BackToTop />
         <Preloader />
